@@ -1,7 +1,7 @@
 export default function RecipeDetails() {
   return (
     <div>
-      Recipe Details
+      PLayer details
     </div>
   )
 }
