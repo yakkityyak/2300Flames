@@ -33,7 +33,6 @@ export async function getStaticProps(){
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-gap: 20px 60px;
-            max-width: 1560px;
             margin: 0 auto;
           }
         `}</style>

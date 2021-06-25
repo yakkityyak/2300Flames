@@ -14,7 +14,7 @@ const useStyles = makeStyles({
   });
 
 export default function PlayerCard({ player }){
-    const { name, thumbnail, height, weight, favoriteLeg, bio, bange } = player.fields
+    const { name, thumbnail, height, weight, age, favoriteLeg, position, bio, bange } = player.fields
     const classes = useStyles();
     return (
         <>
@@ -23,7 +23,7 @@ export default function PlayerCard({ player }){
         <meta name="keywords" content="FLAMMERNE"/>
       </Head>
         <Card className={classes.root} >
-            <div class="thumbnail">
+            <div className="thumbnail">
                 <Image
                     src={'https:' + thumbnail.fields.file.url}
                     width={thumbnail.fields.file.details.image.width}
@@ -36,7 +36,9 @@ export default function PlayerCard({ player }){
                     <h3 className={styles.title}>{ name }</h3>
                     <p className={styles.text}><b>Height:</b> { height } cm</p>
                     <p className={styles.text}><b>Weight:</b> { weight } kg</p>
+                    <p className={styles.text}><b>Age:</b> { age }</p>
                     <p className={styles.text}><b>Favorite leg:</b> { favoriteLeg }</p>
+                    <p className={styles.text}><b>Position:</b> { position }</p>
                     <p className={styles.text}><b>Bio:</b> {documentToReactComponents(bio)}</p>
                     <p className={styles.text}><b>Bange:</b> { (bange ? "Yes" : "No") }</p>
                 </div>
