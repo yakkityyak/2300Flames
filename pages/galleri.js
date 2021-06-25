@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>FLAMMERNE | Home</title>
+        <title>FLAMMERNE | Galleri</title>
         <meta name="keywords" content="FLAMMERNE"/>
       </Head>
       <div>

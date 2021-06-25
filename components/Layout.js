@@ -1,27 +1,14 @@
-import Link from 'next/link'
+import Navigationbar from "../components/Navigationbar"
+import Footer from "../components/Footer"
 
 export default function Layout({ children }) {
   return (
-    <div className="layout">
-      <header>
-        <Link href="/">
-          <a>
-            <h1>
-              <span>Just Add</span>
-              <span>FLAMES</span>
-            </h1>
-            <h2>Spread The Joy</h2>
-          </a>
-        </Link>
-      </header>
-
-      <div className="page-content">
+    <>
+    <Navigationbar />
+    <div className="content">
         { children }
-      </div>
-
-      <footer>
-        <p></p>
-      </footer>
     </div>
+    <Footer />
+    </>
   )
 }
