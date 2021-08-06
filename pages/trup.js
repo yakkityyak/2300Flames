@@ -1,6 +1,7 @@
 import React from 'react'
 import { createClient } from "contentful"
 import PlayerCard from "../components/PlayerCard"
+import styles from '../styles/Trup.module.css'
 
 export async function getStaticProps(){
 
@@ -20,9 +21,9 @@ export async function getStaticProps(){
   }
   
   export default function Players({ players }) {
-  
-  
     return (
+      <>
+      <h1 className={styles.heading}>TRUPPEN</h1>
       <div className="trup">
         {players.map(player => (
           <PlayerCard key={player.sys.id} player={player}/>
@@ -35,7 +36,9 @@ export async function getStaticProps(){
             grid-gap: 20px 60px;
             margin: 0 auto;
           }
-        `}</style>
+        `}
+        </style>
       </div>
+      </>
     )
   }

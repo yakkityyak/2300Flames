@@ -12,8 +12,8 @@ const Navigationbar = () => {
             <Link href="/"><a>Forside</a></Link>
             <Link href="/nyheder"><a>Nyheder</a></Link>
             <Link href="/trup/"><a>Trup</a></Link>
-            <Link href="/galleri/"><a>Galleri</a></Link>
-            <Link href="/omOs/"><a className="nav-om-os">Om os</a></Link>
+            <Link href="/sponsorer/"><a>Sponsorer</a></Link>
+            <Link href="/omOs/"><a className="nav-om-os">Om</a></Link>
         </nav>
     );
 }

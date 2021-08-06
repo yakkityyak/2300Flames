@@ -7,3 +7,14 @@
     color: #777;
     text-align: center;
   }
+
+  .homecontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .nyheder {
+     max-width:300px;
+     display: flex;
+  }

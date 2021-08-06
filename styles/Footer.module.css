@@ -1,0 +1,22 @@
+.text_footer{
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+  .text_footer_mail{
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 20px;
+    text-decoration: underline;
+  }
+
+  .icon_footer{
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
+
+  

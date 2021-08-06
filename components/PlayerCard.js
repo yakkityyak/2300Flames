@@ -18,10 +18,11 @@ export default function PlayerCard({ player }){
     const classes = useStyles();
     return (
         <>
-        <Head>
+        <Head> 
         <title>FLAMMERNE | Trup</title>
         <meta name="keywords" content="FLAMMERNE"/>
       </Head>
+      
         <Card className={classes.root} >
             <div className="thumbnail">
                 <Image
