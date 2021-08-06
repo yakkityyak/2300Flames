@@ -81,7 +81,7 @@ export default function BasicTable({ news }) {
                     </TableCell>
                     <TableCell align="center">{row.hjemmehold}</TableCell>
                     <TableCell align="center">{row.udehold}</TableCell>
-                    <TableCell align="center">{row.spillestedogbane}</TableCell>
+                    <TableCell align="right">{row.spillestedogbane}</TableCell>
                   </TableRow>
                 ))}
               </TableBody>

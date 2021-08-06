@@ -8,7 +8,7 @@ export default function News({ news }) {
   return (
     <>
       <div className='card'>
-        <div classname='image'>
+        <div className='image'>
           <Image
             src={'https:' + image.fields.file.url}
             width={image.fields.file.details.image.width}
