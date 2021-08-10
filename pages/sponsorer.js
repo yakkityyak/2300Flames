@@ -38,6 +38,8 @@ export default function Sponsorere({ sponsorere }) {
           grid-template-columns: 1fr 1fr 1fr;
           grid-gap: 20px 60px;
           margin: 0 auto;
+          //remove
+          margin-bottom: 400px;
         }
       `}</style>
       </div>

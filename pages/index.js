@@ -58,9 +58,18 @@ export default function BasicTable({ news }) {
       </Head>
       
       <div className={styles.homecontainer}>
+      <div className={styles.nyheder}>
+          
+          <h1 align="center" className={styles.heading}>Senete nyheder</h1>
+          <div className={styles.scrollBar}>
+          {news.map(news => (
+            <News key={news.sys.id} news={news} />
+          ))}
+        </div>
+      </div>
         <div className="kampProgram">
         <h1 className={styles.heading}>Kommende kampe</h1>
-          <TableContainer component={Paper}>
+          <TableContainer component={Paper} >
             <Table sx={{ minWidth: 650 }} aria-label="simple table">
               <TableHead>
                 <TableRow>
@@ -89,22 +98,7 @@ export default function BasicTable({ news }) {
           </TableContainer>
           <h4><a href="https://resultater.dai-sport.dk/tms/Turneringer-og-resultater/Pulje-Stilling.aspx?PuljeId=679" target="_blank">Se stilling her</a></h4>
         </div>
-        <div className={styles.nyheder}>
-          <div className="news-list">
-            <h1 align="center" className={styles.heading}>Senete nyheder</h1>
-            {news.map(news => (
-              <News key={news.sys.id} news={news} />
-            ))}
-
-            <style jsx>{`
-        .news-list {
-          display: grid;
-        }
-      `}</style>
-          </div>
-        </div>
       </div>
-
     </>
   );
 }

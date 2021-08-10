@@ -4,7 +4,7 @@ const OmOs = () => {
   return (
     <>
       <Head>
-        <title>FLAMMERNE | Om os</title>
+        <title>FLAMMERNE | Om</title>
         <meta name="keywords" content="FLAMMERNE"/>
       </Head>
       <div>

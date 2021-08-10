@@ -15,6 +15,13 @@
   }
   
   .nyheder {
-     max-width:300px;
+     max-width:350px;
      display: flex;
+     flex-direction: column;
+  }
+
+  .scrollBar{
+    overflow:scroll; height:430px;
+    overflow-x: hidden;
+    
   }

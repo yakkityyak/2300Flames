@@ -25,7 +25,7 @@ export default function Home({ news }) {
     <>
     <h1 className={styles.heading}>Senete nyheder</h1>
       <Head>
-        <title>FLAMMERNE | Home</title>
+        <title>FLAMMERNE | Nyheder</title>
         <meta name="keywords" content="FLAMMERNE"/>
       </Head>
       <div className="news-list">
