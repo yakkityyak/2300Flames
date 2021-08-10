@@ -18,7 +18,7 @@ function createData(dato, hjemmehold, udehold, spillestedogbane) {
 }
 
 const rows = [
-  createData('12/08/21 kl. 12:20', '2300 Flames IF', 'Blue Bears', 'Kløvermarken 7 - Kunst 41'),
+  createData('12/08/21 kl. 19:50', '2300 Flames IF', 'Blue Bears', 'Kløvermarken 7 - Kunst 41'),
   createData('23/08/21 kl. 19:50', '2300 Flames IF', 'Fox United', 'Kløvermarken 7 - Kunst 41'),
   createData('29/08/21 kl. 11:10', 'Minkbeskytterne', '2300 Flames IF', 'Valby idrætspark 7 - Kunst 41'),
   createData('11/09/21 kl. 10:00', 'Fingerbøllet BK', '2300 Flames IF', 'Kløvermarken 7 - Kunst 43'),
