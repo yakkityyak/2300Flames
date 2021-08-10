@@ -63,7 +63,7 @@ export default function News({news}) {
         .card {
             max-width: 500px;
             margin: auto;
-            margin-bottom: 50px
+            margin-bottom: 200px
           }
 
         .content {
