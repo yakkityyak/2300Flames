@@ -60,7 +60,7 @@ export default function BasicTable({ news }) {
       <div className={styles.homecontainer}>
       <div className={styles.nyheder}>
           
-          <h1 align="center" className={styles.heading}>Senete nyheder</h1>
+          <h1 align="center" className={styles.heading}>Seneste nyheder</h1>
           <div className={styles.scrollBar}>
           {news.map(news => (
             <News key={news.sys.id} news={news} />

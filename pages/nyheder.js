@@ -23,7 +23,7 @@ export async function getStaticProps(){
 export default function Home({ news }) {
   return (
     <>
-    <h1 className={styles.heading}>Senete nyheder</h1>
+    <h1 className={styles.heading}>Seneste nyheder</h1>
       <Head>
         <title>FLAMMERNE | Nyheder</title>
         <meta name="keywords" content="FLAMMERNE"/>
